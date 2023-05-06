@@ -34,9 +34,8 @@ class ProductoController {
         this.listaProductos.forEach(producto => {
             this.contenedor_productos.innerHTML +=
                 `<div class="card">
-                <img src="${producto.img}" alt="${producto.alt}">
+                <img src="${producto.img}" >
             <div class="card-info">
-         
                 <h3>${producto.nombre}</h3>
                 <p>${producto.descripcion}</p>
                 <p>$${producto.precio}</p>
