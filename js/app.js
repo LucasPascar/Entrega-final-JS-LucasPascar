@@ -121,7 +121,7 @@ class CarritoController {
             this.listaCarrito.forEach(producto => {
                 contenedor_carrito.innerHTML +=
                     `<div class="card d-flex flex-column ">
-                        <img src="${producto.img}" alt="${producto.alt}">
+                        <img src="${producto.img}">
                         <div class="card-info">
                             <h3>${producto.nombre}</h3>
                             <p>Cantidad: ${producto.cantidad}</p>
