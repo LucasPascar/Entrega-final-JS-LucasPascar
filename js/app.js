@@ -7,7 +7,7 @@ class Producto {
         this.stock = stock
         this.img = img
         this.descripcion = descripcion
-        this.alt = alt
+
     }
 }
 
@@ -19,12 +19,12 @@ class ProductoController {
 
     levantarProductos() {
         this.listaProductos = [
-            new Producto(1, "Firebird", 120000, 10, "../assets/bicicletas/firebird.webp", "Una Bicicleta liviana para la ciudad", "Bicicleta firebird"),
-            new Producto(2, "Futura", 130000, 10, "../assets/bicicletas/futura.webp", "Una Bicicleta liviana para la ciudad", "Bicicleta firebird"),
-            new Producto(3, "Gherpard", 140000, 10, "../assets/bicicletas/ghepard.webp", "Una Bicicleta liviana para la ciudad", "Bicicleta firebird"),
-            new Producto(4, "Nordic", 150000, 10, "../assets/bicicletas/nordic.webp", "Una Bicicleta liviana para la ciudad", "Bicicleta firebird"),
-            new Producto(5, "Raleigh", 160000, 10, "../assets/bicicletas/raleigh.webp", "Una Bicicleta liviana para la ciudad", "Bicicleta firebird"),
-            new Producto(6, "Ush U", 170000, 10, "../assets/bicicletas/ushu.webp", "Una Bicicleta liviana para la ciudad", "Bicicleta firebird"),
+            new Producto(1, "Firebird", 120000, 10, "../assets/bicicletas/firebird.webp", "Una Bicicleta liviana para la ciudad"),
+            new Producto(2, "Futura", 130000, 10, "../assets/bicicletas/futura.webp", "Una Bicicleta liviana para la ciudad" ),
+            new Producto(3, "Gherpard", 140000, 10, "../assets/bicicletas/ghepard.webp", "Una Bicicleta liviana para la ciudad"),
+            new Producto(4, "Nordic", 150000, 10, "../assets/bicicletas/nordic.webp", "Una Bicicleta liviana para la ciudad"),
+            new Producto(5, "Raleigh", 160000, 10, "../assets/bicicletas/raleigh.webp", "Una Bicicleta liviana para la ciudad"),
+            new Producto(6, "Ush U", 170000, 10, "../assets/bicicletas/ushu.webp", "Una Bicicleta liviana para la ciudad"),
 
         ]
     }
