@@ -169,7 +169,7 @@ finalizarCompra.addEventListener("click", () => {
             icon: 'warning',
             title: 'El carrito está vacío',
             showConfirmButton: false,
-            timer: 1500
+            timer: 1400
         })
         return
     }
